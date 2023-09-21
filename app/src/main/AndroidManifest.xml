@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mukesh.fast.one">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <queries>
+        <package android:name="com.facebook.katana" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+    </queries>
+
+
+    <application
+        android:name="com.mukesh.fast.one.one_Mani.one_aavechebahiLoan_MBit"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:networkSecurityConfig">
+
+
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_fd_n_LNGG"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_ned_Bhasha"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_kdd_Loan_PR"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_rbhaid_oan_PK"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_ird__Loan_ST"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed__Manager.one_d_an_TQ"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/ColorStatusBarBilling" />
+
+
+        <activity
+            android:name="com.mukesh.fast.one.one_Mani.one_bo_Loan_SP"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TranslatorLanguageTranslatorVoiceTranslator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity
+            android:name="com.mukesh.fast.one.In_Cs.one_d_Ln_dr"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.In_Cs.one_ed_Ln_Tp"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ser_Interface.one_sd__Loan_Maths"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ser_Interface.one_ed__Loan_Statusdjd"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_eed__Page.one_e_CashCount"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed_Appie.one__Loan_Ammoint"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ed_Appie.one_eed_n_AP_DT"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_eed__Page.one_ge_Details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ser_Interface.one_med__Loan_Prkar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_eed__Page.one_i_n_Web"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ser_Interface.one_n_Turant_Pesa"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_peed__Bnk.one_d_Bnk_Info"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_peed__Bnk.one_ed__BB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_ser_Interface.one_d_F_Loan_Heart"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.mukesh.fast.one.one_peed__Bnk.one_ed__Lst_Act"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.mukesh.fast.one.one_peed__Bnk.one_d_IFSC"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mukesh.fast.one.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+
+        </provider>
+
+    </application>
+
+</manifest>

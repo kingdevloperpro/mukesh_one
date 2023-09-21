@@ -1,0 +1,3 @@
+rootProject.name = "mukesh_loan_one_git"
+include ':app'
+include ':one'
